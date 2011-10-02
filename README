@@ -1,10 +1,12 @@
 # questions
 
-FIXME: write description
+This is code that started with group 5 at the London Clojure Dojo on Tuesday 27th September 2011.
+We didn't get that far with it so I made some modifications to at least make it functional.
+No pun intended.
 
 ## Usage
 
-FIXME: write
+lein trampoline run
 
 ## License
 
