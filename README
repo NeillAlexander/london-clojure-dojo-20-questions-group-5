@@ -13,6 +13,15 @@ git checkout dojo
 
 ## Usage
 
+lein trampoline run
+
+or
+
+lein trampoline run swank (opens a swank port for development)
+
+
+Need to use trampoline for the interactive part to work.
+
 Here is an example session. The game starts with one question, which it asks and then prompts for
 new questions to add to the data.
 
