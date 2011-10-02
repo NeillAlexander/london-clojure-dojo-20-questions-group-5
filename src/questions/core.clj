@@ -39,6 +39,7 @@
   ([s]
      (prompt! s #(not (str/blank? %)) identity))
   ([s validate transform]
+     (println)
      (println s)
      (flush)
      (let [input (str/trim (read-line))]

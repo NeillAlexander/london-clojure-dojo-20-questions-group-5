@@ -1,15 +1,74 @@
-# questions
+# London Clojure Dojo Tuesday 27th September 2011
 
 This is code that started with group 5 at the London Clojure Dojo on Tuesday 27th September 2011.
-We didn't get that far with it so I made some modifications to at least make it functional.
-No pun intended.
+We didn't get very far in the time at the dojo, and I couldn't bear to have partially working code,
+so I did a bit more work.
+
+In the dojo the idea was to send this back to a server (see https://github.com/ppotter/questions-server).
+Since I couldn't get the server running locally I just did a local version.
+
+If anyone wants to start from where we left off in the dojo do:
+
+git checkout dojo
 
 ## Usage
 
-lein trampoline run
+Here is an example session. The game starts with one question, which it asks and then prompts for
+new questions to add to the data.
+
+$ lein trampoline run
+
+Are you a news-reader?
+no
+
+Are you Elizabeth I?
+no
+
+What yes/no question could I ask that would distinguish you from Elizabeth I?
+Are you a man?
+
+Would the answer be yes or no for Elizabeth I?
+no
+
+What would be the yes answer?
+Rich Hickey
+
+Are you a news-reader?
+no
+
+Are you a man?
+yes
+
+Are you Rich Hickey?
+no
+
+What yes/no question could I ask that would distinguish you from Rich Hickey?
+Are you the inventor of an awesome programming language?
+
+Would the answer be yes or no for Rich Hickey?
+yes
+
+What would be the no answer?
+Brad Pitt
+
+Are you a news-reader?
+no
+
+Are you a man?
+yes
+
+Are you the inventor of an awesome programming language?
+no
+
+Are you Brad Pitt?
+yes
+Yay! I win!!
+
+Play again?
+no
 
 ## License
 
-Copyright (C) 2011 FIXME
+Copyright (C) 2011 Neill Alexander + group 5 from the coding dojo.
 
 Distributed under the Eclipse Public License, the same as Clojure.
